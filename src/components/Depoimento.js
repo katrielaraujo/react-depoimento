@@ -6,18 +6,18 @@ function Depoimento(props){
         <div className='container-depoimento'>
             <img 
             className='img-depoimento'
-            src={require(`../images/depoimento-shawn1.png`)}
+            src={require(`../images/depoimento-${props.img}.png`)}
             alt='Foto da Emma'/>
 
             <div className='container-texto-depoimento'>
                 <p className='nome-depoimento'>
-                {} de {} 
+                {props.nome} de {props.pais} 
                 </p>
                 <p className='cargo-depoimento'>
-                {} n {} 
+                {props.cargo} na {props.empresa} 
                 </p>
                 <p className='texto-depoimento'>
-                {}
+                "{props.depoimento}"
                 </p>
             </div>
         </div>
