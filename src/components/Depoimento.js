@@ -5,7 +5,7 @@ function Depoimento(){
         <div className='container-depoimento'>
             <img 
             className='img-depoimento'
-            src={require('../imagens/depoimento-emma.png')}
+            src={require('../images/depoimento-emma.png')}
             alt='Foto da Emma'/>
 
             <div className='container-texto-depoimento'>
@@ -22,5 +22,5 @@ function Depoimento(){
         </div>
     );
 }
-
+//Asignar Estilos con CSS
 export default Depoimento;
