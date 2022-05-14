@@ -11,10 +11,10 @@ function Depoimento(props){
 
             <div className='container-texto-depoimento'>
                 <p className='nome-depoimento'>
-                {props.nome} de {props.pais} 
+                <strong>{props.nome}</strong> de {props.pais} 
                 </p>
                 <p className='cargo-depoimento'>
-                {props.cargo} na {props.empresa} 
+                {props.cargo} na <strong>{props.empresa}</strong> 
                 </p>
                 <p className='texto-depoimento'>
                 "{props.depoimento}"
